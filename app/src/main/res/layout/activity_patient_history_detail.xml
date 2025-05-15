@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.patient.PatientHistoryDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="历史挂号详情"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tv_patient_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="患者姓名: "/>
+
+        <TextView
+            android:id="@+id/tv_doctor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="医生姓名: "/>
+
+        <TextView
+            android:id="@+id/tv_medicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="药品: "/>
+
+        <TextView
+            android:id="@+id/tv_dosage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="剂量: "/>
+
+        <TextView
+            android:id="@+id/tv_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用法说明: "/>
+
+        <TextView
+            android:id="@+id/tv_nurse_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="护理信息: "/>
+
+        <TextView
+            android:id="@+id/tv_pharmacy_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="药品管理员信息: "/>
+
+        <TextView
+            android:id="@+id/tv_patient_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="患者注意事项: "/>
+
+        <TextView
+            android:id="@+id/tv_payment_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="缴费金额: "/>
+
+    </LinearLayout>
+</ScrollView>

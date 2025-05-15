@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="问题描述: " />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="状态: " />
+
+    <TextView
+        android:id="@+id/tv_recommended_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:text="推荐医生: " />
+
+</LinearLayout>

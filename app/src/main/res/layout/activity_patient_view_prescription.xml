@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.patient.ViewPrescriptionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="处方信息"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_medicine"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="药品: " />
+
+    <TextView
+        android:id="@+id/tv_dosage"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:text="剂量: " />
+
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:text="用法说明: " />
+
+    <TextView
+        android:id="@+id/tv_patient_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:text="患者注意事项: " />
+
+</LinearLayout>

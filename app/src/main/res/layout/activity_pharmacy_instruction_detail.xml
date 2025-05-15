@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.pharmacy.PharmacyInstructionDetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="药品信息详情"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_patient_id_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="患者身份证号: "
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_pharmacy_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="药品信息: "
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/et_payment_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入金额"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交金额"/>
+
+</LinearLayout>

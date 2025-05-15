@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">健康医疗系统</string>
+    <string-array name="user_roles">
+        <item>医生</item>
+        <item>护士</item>
+        <item>患者</item>
+        <item>药房管理员</item>
+    </string-array>
+</resources>

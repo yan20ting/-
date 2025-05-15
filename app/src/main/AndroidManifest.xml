@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- 对于主活动（启动器活动），android:exported 应设置为 "true" -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 对于其他活动，根据需要设置 android:exported -->
+        <activity
+            android:name=".ui.registration.RegistrationActivity"
+            android:exported="false"> <!-- 如果这个活动不需要被其他应用访问，设置为 "false" -->
+        </activity>
+
+        <!-- 其他组件也应设置 android:exported 属性 -->
+        <!-- <service android:name=".MyService" android:exported="false" /> -->
+        <!-- <receiver android:name=".MyReceiver" android:exported="false" /> -->
+
+        <activity android:name=".ui.patient.PatientMainActivity" />
+        <activity android:name=".ui.login.PatientLoginActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
+        <activity android:name=".ui.login.GenericLoginActivity" />
+        <activity android:name=".ui.nurse.NurseMainActivity" />
+        <activity android:name=".ui.doctor.DoctorMainActivity" />
+        <activity android:name=".ui.pharmacy.PharmacyMainActivity" />
+        <activity android:name=".ui.patient.RegisterAppointmentActivity" />
+        <activity android:name=".ui.patient.ViewPrescriptionActivity" />
+        <activity android:name=".ui.nurse.ManageAppointmentsActivity" />
+        <activity android:name=".ui.nurse.ViewAppointmentDetailsActivity" />
+        <activity android:name=".ui.doctor.ViewRecommendationsActivity" />
+        <activity android:name=".ui.doctor.ViewPatientDetailsActivity" />
+        <activity android:name=".ui.patient.ViewAppointmentActivity"/>
+        <activity android:name=".ui.nurse.ViewNurseInstructionsActivity"/>
+        <activity android:name=".ui.nurse.NurseInstructionDetailActivity"/>
+        <activity android:name=".ui.pharmacy.ViewPharmacyInstructionsActivity"/>
+        <activity android:name=".ui.pharmacy.PharmacyInstructionDetailActivity"/>
+        <activity android:name=".ui.patient.PatientPaymentActivity"/>
+        <activity android:name=".ui.patient.PatientHistoryDetailActivity"/>
+        <activity android:name=".ui.patient.ViewPatientHistoryActivity"/>
+    </application>
+
+</manifest>

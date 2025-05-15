@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.doctor.ViewPatientDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="患者详情"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/tv_patient_id_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="患者身份证号: "
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="问题描述: "
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/et_medicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="药品"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/et_dosage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="剂量"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/et_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="用法说明"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/et_nurse_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="给护士的护理信息"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/et_pharmacy_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="给药房管理员的药品信息"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/et_patient_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="给患者的建议和注意事项"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_submit_prescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提交处方"/>
+
+    </LinearLayout>
+</ScrollView>

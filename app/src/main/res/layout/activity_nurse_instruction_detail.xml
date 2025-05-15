@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.nurse.NurseInstructionDetailActivity">
+
+    <TextView
+        android:id="@+id/tv_patient_id_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="患者身份证号: "/>
+
+    <TextView
+        android:id="@+id/tv_patient_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="患者姓名: "/>
+
+    <TextView
+        android:id="@+id/tv_nurse_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="护理信息: "/>
+
+    <Button
+        android:id="@+id/btn_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已完成"/>
+
+</LinearLayout>

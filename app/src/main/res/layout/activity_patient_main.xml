@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.patient.PatientMainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="患者主页"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_register_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="挂号"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_view_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看挂号信息"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缴费"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_prescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看处方"/>
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看历史挂号" />
+
+</LinearLayout>
